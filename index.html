@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gol">
+        <div class="part1">
+            <h1>GAME OF LIFE</h1>
+            <div class="buttons">
+                <button class="btn btn1" onclick="reset()">Restart</button>
+                <button id="runId" class="btn btn2" onclick="run()">Run</button>
+                <div>
+                    <h5 class="speedTitle">Cellular Autamation</h5>
+                    <input id="ruleText" type="text" class="speedText btn-fast" placeholder="Rule" >
+                    <input  type="button" class="btn btn-fast" value="Set" onclick="setRule()">
+                </div>
+                
+            </div>
+        </div>
+        <div class="part2">
+            <div id="table"></div>
+        </div>
+        
+    </div>
+    <footer>CREATED AND DEVELOPED BY VUSAL DADASHOV</footer>
+    <script src="app.js"></script>
+</body>
+</html>
